@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Sua mensagem de feedback</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+                margin: 20px;
+                padding: 20px;
+            }
+            h1{
+            color: white;
+            text-align: center;
+            }
+            form{
+                background-color: white;
+                padding: 30px;
+                border-radius: 15px;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+
+            input, textarea{
+                width: 100%;
+                padding: 20px;
+                margin-bottom: 15px;
+                border: 5px solid #0084fff5;
+                border-radius: 4px;
+            }
+            button{
+                background-color: #02afff;
+                color: white;
+                padding: 10px 20px;
+                border: 5px solid #0084fff5;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+             button:hover{
+                background-color: #4574a0;
+             }  
+
+
+        </style>
+         <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+        <h1>Sua mensagem de feedback</h1>
+        <form id="SuaMensagemForm">
+            <input type="text" name="nome" placeholder="Nome">
+            <input type="text" name="email" placeholder="Email">
+            <textarea name="mensagem" placeholder="Sua mensagem:"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        </main>
+        <script src="scripts.js"></script>
+    </body>
+</html>
